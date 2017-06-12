@@ -7,6 +7,7 @@
     </head>
     <body>
 
+        <h1>Wirtializacja i przetwarzanie w chmurze</h1>
         <form action="{{ url_for('upload_file')}}" class="upload-zone dropzone">
           <div class="fallback">
             <input name="uploaded_media" type="file" multiple />
@@ -25,6 +26,7 @@
                 Clear Order
             </button>
         </form>
+        <footer>Created by Milena Fietko and Michał Filo</footer>
     </body>
     <script src="{{ url_for('static', filename='js/vendor/dropzone.js') }}"></script>
     <script src="{{ url_for('static', filename='js/vendor/axios.min.js') }}"></script>
